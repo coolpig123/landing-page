@@ -1,0 +1,36 @@
+/* this is the first container */
+.containerOne {
+    display: flex;
+}
+/* this is the second container */
+.containerTwo {
+    display: flex;
+}
+/* this is the unordered list */
+.linkContainer {
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    background-color: #1F2937;
+    padding: 32px;
+}
+/* this is for the link in the unordered list */
+.link {
+    font-size: 18px;
+    color: #E5E7Eb;
+    padding: 8px;
+}
+/* this is a container for all of the upper page */
+.upperContainer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+}
+/* setting for paragraph */
+p {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 32px;
+}
