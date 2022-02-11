@@ -1,12 +1,10 @@
-/* this is the first container */
 .containerOne {
     display: flex;
 }
-/* this is the second container */
-.containerTwo {
+.mainContainer {
     display: flex;
+    flex-direction: column;
 }
-/* this is the unordered list */
 .linkContainer {
     display:flex;
     justify-content: space-between;
@@ -14,23 +12,59 @@
     list-style: none;
     background-color: #1F2937;
     padding: 32px;
+    margin-right: 64px;
 }
-/* this is for the link in the unordered list */
 .link {
     font-size: 18px;
     color: #E5E7Eb;
     padding: 8px;
 }
-/* this is a container for all of the upper page */
-.upperContainer {
+.Container {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
 }
-/* setting for paragraph */
-p {
+.columnContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 96px;
+    margin-top: 96px;
+}
+.headerLogo {
     font-size: 24px;
     color: #F9FAF8;
     padding: 32px;
+    padding-left: 128px;
+    font-weight: bold;
+}
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.signUpButton {
+    background-color: #3882F6;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    color: #F9FAF8;
+    border-radius: 10%;
+    font-size: 20px;
+}
+.awesome , .secondary, .signUpButton {
+    margin-left : 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.whale {
+    margin: 32px;
+    margin-right: 128px;
+}
+* {
+    font-family: Tahoma;
 }
