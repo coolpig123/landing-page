@@ -30,14 +30,13 @@
     font-size: 18px;
     color: #E5E7Eb;
     padding: 8px;
+    
 }
 .Container {
     display: flex;
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 .ContainerCopyRight {
     display: flex;
@@ -74,10 +73,45 @@
     height: 50px;
     font-weight: bold;
     color: #F9FAF8;
-    border-radius: 10%;
+    border: 5px solid #3882F6;
+    border-radius: 15px;
     font-size: 20px;
     margin-left : 128px;
     margin-bottom: 0px;
+}
+.signUpButtonTwo {
+    background-color: #3882F6;
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    border: 5px solid #F9FAF8;
+    color: #F9FAF8;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: auto;
+}
+.signupContainer {
+    display: flex;
+    background-color: #3882F6;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    border-radius: 15px;
+    border: 5px solid #3882F6;
+    
+}
+.signTextOne {
+    margin-left: 32px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 0px;
+    color: white;
+}
+.signTextTwo {
+    margin-left: 32px;
+    font-size: 16px;
+    color: white;
 }
 .awesome , .secondary {
     margin-left : 128px;
