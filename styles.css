@@ -5,14 +5,26 @@
     display: flex;
     flex-direction: column;
 }
-.linkContainer {
+.linkContainer,.linkContainerOne {
     display:flex;
     justify-content: space-between;
     gap: 10px;
     list-style: none;
-    background-color: #1F2937;
     padding: 32px;
     margin-right: 64px;
+}
+.linkContainerOne {
+    display:flex;
+    justify-content: space-between;
+    gap: 10px;
+    list-style: none;
+    padding: 32px;
+    margin-right: 64px;
+}
+.pizza {
+    border-radius: 10%;
+    border: 3px solid blue;
+    margin: 0px;
 }
 .link {
     font-size: 18px;
@@ -24,6 +36,8 @@
     background-color: #1F2937;
     justify-content: space-between;
     align-items: center;
+    
+
 }
 .ContainerCopyRight {
     display: flex;
@@ -62,11 +76,13 @@
     color: #F9FAF8;
     border-radius: 10%;
     font-size: 20px;
+    margin-left : 128px;
+    margin-bottom: 0px;
 }
-.awesome , .secondary, .signUpButton {
+.awesome , .secondary {
     margin-left : 128px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 16px;
 }
 .whale {
     margin: 32px;
@@ -76,8 +92,44 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-
+}
+.randomContainer {
+    display: flex;
+    flex-direction: column;
+}
+.randomP {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.linkOne {
+    text-align: center;
+    font-size: 18px;
+    color: #929292;
+}
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+.quote {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 36px;
+    font-family: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+.author {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
 }
 * {
     font-family: Tahoma;
+}
+body {
+    margin: 0px;
 }
