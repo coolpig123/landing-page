@@ -25,6 +25,13 @@
     justify-content: space-between;
     align-items: center;
 }
+.ContainerCopyRight {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+}
 .columnContainer {
     display: flex;
     flex-direction: column;
@@ -64,6 +71,12 @@
 .whale {
     margin: 32px;
     margin-right: 128px;
+}
+.copyRight {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
 }
 * {
     font-family: Tahoma;
